@@ -194,7 +194,7 @@ weighted avg       0.97      0.97      0.97      1115
 
 ## 📚 References
 
-- [Kaggle Dataset](https://www.kaggle.com/datasets/satyampatell/spamdata)
+- [Kaggle Dataset](https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset/data)
 - [Scikit-learn Documentation](https://scikit-learn.org/)
 - [NLTK Documentation](https://www.nltk.org/)
 
