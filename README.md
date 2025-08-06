@@ -93,7 +93,6 @@ email-spam-classification/
 ├── spam_classifier.py         # Main script with preprocessing, training, and evaluation
 ├── requirements.txt           # Python libraries required
 ├── README.md                  # Project documentation
-└── .gitignore                 # Ignored files/folders
 ```
 
 ---
