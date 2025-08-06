@@ -123,19 +123,41 @@ email-spam-classification/
 
 ```
 --- Multinomial Naive Bayes ---
-Confusion Matrix:
-[[949   5]
- [ 21 140]]
-
-Classification Report:
+[[965   1]
+ [ 36 113]]
               precision    recall  f1-score   support
 
-           0       0.98      0.99      0.98       954
-           1       0.97      0.87      0.92       161
+           0       0.96      1.00      0.98       966
+           1       0.99      0.76      0.86       149
 
     accuracy                           0.97      1115
-   macro avg       0.97      0.93      0.95      1115
+   macro avg       0.98      0.88      0.92      1115
+weighted avg       0.97      0.97      0.96      1115
+
+--- Logistic Regression ---
+[[965   1]
+ [ 46 103]]
+              precision    recall  f1-score   support
+
+           0       0.95      1.00      0.98       966
+           1       0.99      0.69      0.81       149
+
+    accuracy                           0.96      1115
+   macro avg       0.97      0.85      0.90      1115
+weighted avg       0.96      0.96      0.95      1115
+
+--- Support Vector Machine ---
+[[966   0]
+ [ 29 120]]
+              precision    recall  f1-score   support
+
+           0       0.97      1.00      0.99       966
+           1       1.00      0.81      0.89       149
+
+    accuracy                           0.97      1115
+   macro avg       0.99      0.90      0.94      1115
 weighted avg       0.97      0.97      0.97      1115
+
 ```
 
 ---
